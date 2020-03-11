@@ -229,11 +229,11 @@ margin: 0;
     z-index: 99999;
 }
 
-.businesstopheader a{
+.topheader a{
     float: left;
 }
 
-.businesstopheader img{
+.topheader img{
     width: 140px;
 }
 
