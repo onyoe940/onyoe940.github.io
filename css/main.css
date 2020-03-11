@@ -1,0 +1,663 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*--------------------------Css Reset-------------------------------- */
+body{
+    font-family: Microsoft JhengHei,Heiti TC,LiHei Pro,Apple LiGothic Medium;
+    line-height: 1.5;
+}
+
+
+.banner{
+    background-image: url(../images/banner01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    color: #ffffff;
+    }
+
+.bannerbox{
+    text-align: center;
+    display: inline;
+    vertical-align: middle;
+    position: relative;
+    top: 25%;
+    
+}
+
+.bannerimg,.bannerword{
+    margin-bottom: 55px;
+}
+
+.bannerword{
+    
+    font-size: 28px;
+    font-weight: 700;    
+}
+
+.bannertext p{
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+
+.news{
+    position: relative;
+    padding: 60px 15px 85px;
+    background:#faf9f7;
+    font-size: 22px;
+    text-align: center;
+}
+
+.news-message img{
+    width: 125px;
+    margin-bottom: 35px;
+}
+
+.city,.date,.word {
+    display: inline-block;
+    font-size: 28px;
+    text-align: left;
+}
+
+.city,.date{
+    width: 80px;
+}
+
+.content-text{
+    padding: 50px 0;
+    background: #fff;
+}
+
+.text{
+    max-width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.text img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.text-title{
+    position: relative;
+    text-align: center; 
+}
+
+.text-message{
+    padding-top: 25px;
+    text-align: center;
+}
+
+.text-message p{
+    margin-bottom: 25px;
+    font-size:18px;
+}
+
+.text-message p span{
+    display: block;
+}
+
+.content-page{
+    padding: 120px 0;
+    background-color:#f0f0f0;
+}
+.content-page ul{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.content-page ul li{
+    width: 33.33%;
+    padding: 10px;
+    float: left;
+}
+
+.content-page ul li a{
+    text-decoration: none !important;
+    border-bottom: none !important;
+    color: inherit !important;
+}
+
+
+.content-page ul li img{
+    width: 100%;
+}
+
+.pagephoto{
+    position: relative;
+}
+
+.pagetitle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    letter-spacing: 2.4px;
+    font-size: 24px;
+}
+
+.indexfooter footer{
+    background:#fff;
+    padding: 90px 20px ;
+}
+.footerimg{
+    text-align: center;
+}
+
+.footerimg>img{
+    margin: 0 auto 30px;
+}
+
+.footerlink{
+    background: url(../images/footerlinkimg.jpg);
+    background-size: cover;
+    width: 570px;
+    line-height: 85px;
+    margin: 0 auto;
+}
+
+.footerlink img{
+    vertical-align: middle;
+}
+
+footer>p{
+    font-size: 10px;
+color:#999;
+letter-spacing: 2px;
+text-align: center;
+padding: 40px 0;
+margin: 0;
+}
+
+.topheader{
+    position: fixed;
+    background: #fff;
+    height: 70px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 99999;
+}
+
+.businesstopheader a{
+    float: left;
+}
+
+.businesstopheader img{
+    width: 140px;
+}
+
+.businesspage{
+    padding-top: 70px;
+    
+}
+
+.pagebanner{
+    background-image:url(../images/businesspgaebanner01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+}
+
+.pageword{
+    padding-top: 200px;
+    text-align: center;
+}
+
+.businessheader{
+    background-color: #000;
+    padding-bottom: 70px;
+}
+
+.headercontent{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.headerword{
+    padding: 70px 0 40px;
+    text-align: center;
+}
+
+.headertext{
+    color: #fff;
+    line-height: 2;
+    letter-spacing: 0.5px;
+}
+
+.businessmodel{
+    width: 100%;
+    height: 800px;
+    background: url(../images/businessmodelbanner.png) 50% no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.businessmodel img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 75%;
+}
+
+.businessstrength{
+    background: #f0f0f0;
+    padding-bottom: 120px;
+}
+
+.strength{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.strengthtitle{
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.strengthtitle img{
+    padding: 70px 0 40px;
+}
+
+.strengthcontentstepmessage{
+    width: 50%;
+    height: 265px;
+    background: #1d3041;
+    padding: 0 50px;
+    color: #fff;
+    text-align: center;
+
+}
+
+.strengthcontentstepmessage img{
+    margin: 45px auto 30px;
+}
+
+.strengthcontentstepmessagetext{
+    font-size: 13px;
+    line-height: 2;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.strengthcontentstepimg{
+    background:#fff;
+    text-align: center;
+    padding-top: 20px;
+    width: 50%;
+    height: 265px;
+}
+
+.businesssupagearea{
+    background: url(../images/businesssuppgaebanner01.jpg) no-repeat 50%;
+    background-size: cover;
+    padding: 10px 0;
+}
+
+.businesssupagecontent{
+    background: rgba(0, 0, 0, .6);
+    padding: 40px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.businesssupagetitle{
+    margin-bottom: 40px;
+}
+
+
+.businesssupagetitle span{
+    display: block;
+}
+
+.businesssupagelink a{
+    text-decoration: none !important;
+    border-bottom: none !important;
+    color: inherit !important;
+    display: inline-block
+}
+
+.businesssupagelink div{
+    width: 180px;
+    height: 180px;
+    border: 3px solid#fff;
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 0;
+    text-align: center;;
+    position: relative;
+}
+
+.businesssupagelink img{
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%,50%);
+}
+
+.totop{
+    width: 100%;
+    height: 110px;
+    background: #1d3041;
+
+}
+
+.totopword{
+    width: 120px;
+    height: 100%;
+    background: #32485a;
+    margin: 0 auto;
+    position: relative;
+}
+
+.totopolink div{
+    color:#fff;
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%,50%);
+}
+
+.footercontent{
+    width: 100%;
+}
+
+.footercontent ul li{
+    width: 33.33%;
+    height: 275px;
+    float: left;
+    overflow: hidden;
+}
+
+.footercontent ul li a{
+    text-decoration: none !important;
+    border-bottom: none !important;
+    color: inherit !important;
+}
+
+.footercontentphoto{
+    position: relative;
+}
+
+.footercontenttext{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    background: linear-gradient(180deg,transparent,rgba(0,0,0,.6));
+}
+
+.personpage{
+    padding-top: 70px;
+}
+
+.personpagebanner{
+    background: url(../images/personpagebanner.jpg) top no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.personpagebanner img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.personcontent{
+    padding: 0 0 60px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.personcontent ul li{
+    width: 33%;
+    float: left;
+    height: 376.2px;
+}
+
+.personcontent a{
+    text-decoration: none !important;
+    border-bottom: none !important;
+    color: inherit !important;
+}
+
+.personpeople{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.personpeople img{
+    width: 100%;
+}
+
+.peopletext{
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 95%;
+    height: 75px;
+    background: rgba(0,0,0,.8);
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 13px;
+    line-height: 2;
+}
+
+.sectionpage{
+    padding-top: 70px;
+}
+.sectionbanner{
+    background: url(../images/section/banner.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.bannercolor{
+    background: rgba(0,0,0,.6);
+    width: 100%;
+    height: 100%;
+}
+
+.sectionbanner img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.sectiondepatments{
+    margin-bottom: 20px;
+    background:#f6f6f6;
+}
+
+.depatmentscontent{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.depatmentscontent a{
+    text-decoration: none !important;
+    border-bottom: none !important;
+    color: inherit !important;
+}
+
+.depatmentscontent li{
+    width: 20%;
+    min-height: 450px;
+    float: left;
+    background: #fff;
+    padding: 35px 15px;
+    position: relative;
+    border-top:2px solid;
+}
+
+.depatmentlato1,.depatmentlato2,.depatmentlato3,.depatmentlato4,.depatmentlato5{
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: Lato,sans-serif;
+}
+
+.lato{
+    display: block;
+    font-size: 40px;
+    padding-top: 5px;
+    font-weight: 700;
+    
+}
+
+.name{
+font-size: 16px;
+letter-spacing: 1px;
+font-weight: 700;
+line-height: 1.5;
+min-height: 50px;
+text-align: center;
+margin-bottom: 5px;
+}
+
+.desc{
+    font-size: 13px;
+    line-height: 2;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.triangle1,.triangle2,.triangle3,.triangle4,.triangle5{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-style: solid;
+    border-width: 0 0 18px 18px;
+}
+
+.depatmentlato1{
+    color: #ff7043;
+}
+
+.depatmentlato2{
+    color: #66bb6a;
+}
+
+.depatmentlato3{
+    color: #26c6da;
+}
+
+.depatmentlato4{
+    color: #7e57c2;
+}
+
+.depatmentlato5{
+    color: #ec407a;
+}
+
+.triangle1{
+    border-color: transparent transparent #ff7043;
+}
+
+.triangle2{
+    border-color: transparent transparent #66bb6a;
+}
+
+.triangle3{
+    border-color: transparent transparent #26c6da;
+}
+
+.triangle4{
+    border-color: transparent transparent #7e57c2;
+}
+
+.triangle5{
+    border-color: transparent transparent #ec407a;
+}
+
+.sectionpage2{
+    background:#f6f6f6;
+    padding: 70px 15px 120px;
+}
+
+.sectionpagecontetn{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.sectionpagecontetntitle{
+    margin-bottom: 40px;
+}
+
+.sectionpagecontetntext{
+    font-size: 15px;
+    line-height: 2;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.sectionpagecontetnphoto img{
+    width: 585px;
+}
