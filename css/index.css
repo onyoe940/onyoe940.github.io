@@ -17,7 +17,6 @@
     vertical-align: middle;
     position: relative;
     top: 25%;
-    
 }
 
 .bannerimg,.bannerword{
@@ -226,6 +225,14 @@
 
 .top_header{
     background: #fff;
+}
+
+.bannerbox{
+    text-align: center;
+    display: inline;
+    vertical-align: middle;
+    position: relative;
+    top: 25%;
 }
 
 }
