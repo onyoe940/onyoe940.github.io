@@ -1,0 +1,375 @@
+.education_page{
+    padding-top: 70px;
+}
+
+.education_banner {
+    background: url(../images/education/banner01.jpg) 50% no-repeat;
+    background-size: cover;
+}
+
+.education_title{
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+.education_title img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.education_content{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.education_content_year{
+    background:hsla(0,0%,100%,.75);
+    padding: 0 35px;
+    position: relative;
+    border-bottom: 5px solid #fff;
+}
+
+.education_content_year_head{
+    margin-bottom: 70px;
+}
+
+.yearheadcontent{
+    width: 800px;
+    margin:0 auto;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.yearhead_conten_ttitle img{
+    padding-bottom: 40px;
+}
+
+.education_text{
+    font-size: 15px;
+    line-height: 2;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.education_main_li{
+    float: left;
+    width: 23.5%;
+    margin-right: 1.5%;
+    margin-bottom: 100px;
+}
+
+.education_main_li h4{
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.education_main_li span{
+    font-size: 26px;
+}
+
+.education_main_li h4 ::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background:#1d3041;
+    margin: 15px 0;
+}
+
+.education_main_li p{
+    font-size: 15px;
+    line-height: 2;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.role{
+    background:#1d3041;
+    padding: 0 10px 20px;
+}
+
+.role h5{
+    font-size: 22px;
+    letter-spacing: 1.5px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.role ul{
+    font-size: 12px;
+    color:#fff;
+    line-height: 2;
+    letter-spacing: .5px;
+    margin-top: 15px;
+    padding-left: 10px;
+    text-indent: -10px;
+}
+
+.tips{
+    padding: 20px 10px 15px;
+    color:    #fff;
+    margin-top: 15px;
+}
+
+.tips p{
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    letter-spacing: 0
+}
+
+.h4blue{
+    color:#0b97a9;
+}
+
+.h4green{
+    color: #429546;
+}
+
+.h4purple{
+    color: #6039a3;
+}
+
+.h4pink{
+    color: #c61f57;
+}
+
+.textblue{
+    color: #26c6da;
+}
+
+.textgreen{
+    color:#66bb6a
+}
+
+.textpurple{
+    color:#7e57c2;
+}
+
+.textpink{
+    color: #ec407a;
+}
+
+.tipsblue{
+    background: #0b97a9;;
+}
+
+.tipsgreen{
+    background: #429546;
+}
+
+.tipspurple{
+    background: #6039a3;
+}
+
+.tipspink{
+    background: #c61f57;
+}
+
+.year20{
+    padding-top: 90px;
+}
+
+.year30{
+    padding-top: 60px;
+}
+
+.year40{
+    padding-top: 30px;
+}
+
+.education_triangle{
+    border-style: solid;
+    border-width: 40px 25px 0;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translate(-50%);
+    border-color: #fff transparent transparent ;
+}
+
+.education_future{
+    padding: 70px 0;
+    margin-top: 20px;
+    color:#fff;
+    background:rgba(29,48,65,.8);
+}
+
+.future_content{
+    width: 800px;
+    margin: 0 auto;
+    padding: 70px 15px 0;
+}
+
+.future_content_word{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.education_future .education_text{
+    margin-bottom: 20px;
+}
+
+.education_bannerbottom{
+    background: url(../images/education/bannerbottom.png) bottom  no-repeat;
+    background-size: 100%;
+    padding-bottom: 150px;
+}
+
+.toarrange_ment{
+    padding: 100px 0;
+}
+
+.toarrange_ment a{    
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+    height: 80px;
+    border: 2px solid #1d3041;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 28px;
+    text-align: center;
+}
+
+.toarrange_ment_triangle {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 0 18px 18px ;
+    border-color: transparent transparent #1d3041;
+}
+
+@media screen and (max-width:767px){
+.education_page{
+    padding-top: 51px;
+}
+
+.education_title{
+    height: 395px;
+}
+
+.education_title img{
+    width: 80%;
+}
+
+.education_content{
+    max-width: 100%;
+    padding: 0 15px 70px;
+}
+
+.education_content_year{
+    padding: 0;
+}
+
+.yearheadcontent{
+    max-width: 100%;
+    padding: 50px 15px 0;
+}
+
+.yearhead_conten_ttitle img{
+    width: 60%;
+    padding-bottom: 25px;
+}
+
+.education_text{
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+.education_content_year_head{
+    margin-bottom: 25px;
+}
+
+.education_main_li {
+    width: 100%;
+    padding: 0 15px;
+    margin-right:0;
+    margin-bottom: 40px;
+}
+
+.education_main_li h4{
+    font-size: 40px;
+}
+
+.education_main_li h4 ::after{
+    margin: 0 0 10px;
+    height: 2px;
+}
+
+.education_main_li p{
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.role h5{
+    font-size: 18px;
+}
+
+.role ul{
+    font-size: 10px;
+    line-height: 1.8;
+}
+
+.education_main_li p{
+    margin-bottom: 5px;
+    font-size: 10px;
+}
+
+.education_future{
+    padding: 30px 0;
+
+}
+
+.future_content{
+    max-width: 100%;
+    padding: 0 15px;
+}
+
+.future_content_word img{
+    width: 50%;
+}
+
+.future_content_word{
+    margin-bottom: 25px;
+}
+
+.img02{
+    width: 70% !important;
+}
+
+
+.education_text img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.education_bannerbottom{
+    padding: 0px;
+}
+
+.toarrange_ment{
+    padding: 50px 20px;
+}
+
+.toarrange_ment a{
+    max-width: 350px;
+    width: 100%;
+    height: 60px;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+}
