@@ -191,6 +191,7 @@
 
 .business_model{
     height: auto;
+    max-height: 100%;
 }
 
 .business_model img{
