@@ -354,6 +354,10 @@ margin: 0;
     color: #fff;
 }
 
+.claer_mobile{
+    clear: both;
+}
+
 @media screen and (max-width:767px){
 .top_header{
     height: 51px;
@@ -387,6 +391,36 @@ margin: 0;
 .footer_content_text span{
     font-size: 12px;
     bottom: 5px;
+}
+
+.menu_content_ul_li{
+    width:calc(50% - 20px);
+    margin: 5px 10px;
+}
+
+.menu_content_ul_li::before{
+    content: none;
+}
+
+.menu_content_ul_li ul li{
+    display: none;
+}
+
+.menu_content_ul_li ul li:first-of-type{
+    display: block;
+    border-bottom: none;
+}
+
+.claer_mobile{
+    clear: none;
+}
+
+.menu_content{
+    padding: 0 10px;
+}
+
+.menu_content_area{
+    background: rgba(0,0,0,.95);
 }
 
 }
