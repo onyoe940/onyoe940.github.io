@@ -1,3 +1,7 @@
+.person_page{
+    padding-top: 70px;
+}
+
 .person_page_banner{
     background: url(../images/personpagebanner.jpg) top no-repeat;
     background-size: cover;
@@ -59,6 +63,10 @@
 
 
 @media screen and (max-width:767px){
+.person_page{
+    padding-top: 51px;
+}
+
 .person_page_banner{
     height: 400px;
     background-position: 32% 0;

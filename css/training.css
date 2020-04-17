@@ -1,3 +1,7 @@
+.training_page{
+    padding-top: 70px;
+}
+
 .training_banner{
     background: url(../images/training/banner.jpg) top no-repeat;
     background-size: cover;
@@ -83,6 +87,10 @@
 }
 
 @media screen and (max-width:767px){
+.training_page{
+    padding-top: 51px;
+}
+
 .training_banner{
     height: 300px;
     margin-bottom: 50px;

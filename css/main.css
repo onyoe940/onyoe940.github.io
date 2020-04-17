@@ -82,7 +82,7 @@ body{
 }
 
 footer>p{
-    font-size: 10px;
+font-size: 10px;
 color:#999;
 letter-spacing: 2px;
 text-align: center;
@@ -91,7 +91,7 @@ margin: 0;
 }
 
 .top_header{
-    position: sticky;
+    position: fixed;
     top:0;
     background: #fff;
     height: 70px;

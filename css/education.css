@@ -1,3 +1,7 @@
+.education_page{
+    padding-top: 70px;
+}
+
 .education_banner {
     background: url(../images/education/banner01.jpg) 50% no-repeat;
     background-size: cover;
@@ -249,6 +253,10 @@
 }
 
 @media screen and (max-width:767px){
+.education_page{
+    padding-top: 51px;
+}
+
 .education_title{
     height: 395px;
 }
