@@ -106,7 +106,7 @@ margin: 0;
 }
 
 .top_header_mobile{
-    height: 100vh;
+    height: 100vh !important;
 }
 
 .menu{
