@@ -91,7 +91,8 @@ margin: 0;
 }
 
 .top_header{
-    position: fixed;
+    position: sticky;
+    top:0;
     background: #fff;
     height: 70px;
     width: 100%;
@@ -102,6 +103,10 @@ margin: 0;
 
 .top_header img{
     width: 140px;
+}
+
+.top_header_mobile{
+    height: 100vh;
 }
 
 .menu{
@@ -424,3 +429,4 @@ margin: 0;
 }
 
 }
+

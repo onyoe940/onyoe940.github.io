@@ -1,7 +1,3 @@
-.recruit_page{
-    padding-top: 70px;
-}
-
 .recruit_banner{
     background: url(../images/recruit/banner.jpg) top no-repeat;
     background-size: cover;
@@ -128,10 +124,6 @@
 }
 
 @media screen and (max-width:767px){
-.recruit_page{
-    padding-top: 51px;
-}
-
 .recruit_banner{
     height: 400px;
     margin-bottom: 70px;

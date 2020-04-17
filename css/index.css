@@ -164,6 +164,7 @@
 .page_photo{
     position: relative;
     display: flex;
+    align-items: center
 }
 
 .page_title{

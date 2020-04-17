@@ -1,6 +1,3 @@
-.section_page{
-    padding-top: 70px;
-}
 .section_banner{
     background: url(../images/section/banner.jpg) top no-repeat;
     background-size: cover;
@@ -158,10 +155,6 @@ margin-bottom: 5px;
 }
 
 @media screen and (max-width:767px){
-.section_page{
-    padding-top: 51px;
-}
-
 .section_banner{
     height: 300px;
 }
