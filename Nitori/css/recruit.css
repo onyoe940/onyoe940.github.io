@@ -1,0 +1,254 @@
+.recruit_page{
+    padding-top: 70px;
+}
+
+.recruit_banner{
+    background: url(../images/recruit/banner.jpg) top no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 150px;
+}
+
+.recruit_bannerarea{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.4);
+    color: #fff;
+    position: relative;
+}
+
+.recruit_bannerarea img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.recuit_message{
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.recuit_3c_content{
+    width: 770px;
+    margin: 0 auto;
+}
+
+.recuit_3c_contenttitle{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.recuit_3c_content_text{
+    font-size: 15px;
+    line-height: 2;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.recuit_3c_photo{
+    margin-bottom: 100px;
+}
+
+.recuit_3c_photo img{
+    max-width: 100%;
+}
+
+.recuit_3c_step_container{
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.recuit_3c_step1{
+    margin-bottom: 95px;
+}
+
+.recuit_3c_steptitle01{
+    margin-bottom: 7.5px;
+}
+
+.recuit_3c_stepphoto img{
+    max-width: 100%;
+}
+
+.recuit_3c_step2{
+    margin-bottom: 180px;
+}
+.recuit_3c_steptitle02{
+    margin-bottom: 80px ;
+}
+
+.recruit_info{
+    padding: 100px 0 70px;
+    background: #f6f6f6;
+}
+
+.recruit_info_container{
+    width:770px;
+    margin: 0 auto;
+}
+
+.recruit_infotitle{
+    text-align: center;
+    margin-bottom: 105px;
+}
+
+.recruit_info_link{
+    text-align: center;
+}
+
+.recruit_info_link a{
+    text-decoration: none !important;
+    border-bottom: none !important;
+    color: inherit !important;
+    display: inline-block;
+}
+
+.recruit_info_message01{
+    margin-right: 140px;
+    width: 162px;
+    height: 80px;
+    padding: 23.5px 10px 0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    background:linear-gradient(180deg,#0fb6b9,#008c8f);
+    border-radius: 10px;
+}
+
+.recruit_info_message02{
+    margin-left: 140px;
+    width: 162px;
+    height: 80px;
+    padding: 23.5px 10px 0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    background:linear-gradient(180deg,#0fb6b9,#008c8f);
+    border-radius: 10px;
+}
+
+@media screen and (max-width:767px){
+.recruit_page{
+    padding-top: 51px;
+}
+
+.recruit_banner{
+    height: 400px;
+    margin-bottom: 70px;
+}
+
+.recruit_bannerarea img{
+    width: 75%;
+}
+
+.recuit_message img{
+    max-width: 100%;
+    width: 80%;
+}
+
+.recuit_message{
+    margin-bottom: 70px;
+}
+
+.recuit_3c_content{
+    max-width: 100%;
+    padding: 0 15px;
+}
+
+.recuit_3c_contenttitle img{
+    max-width: 100%;
+    width: 95%;
+}
+
+.recuit_3c_contenttitle{
+    margin-bottom: 25px;
+}
+
+.recuit_3c_content_text{
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 0.8px;
+}
+
+.recuit_3c_step_container{
+    max-width: 100%;
+    padding: 0 15px;
+}
+
+.recuit_3c_photo{
+    margin-bottom: 50px;
+}
+
+.recuit_3c_steptitle01,.recuit_3c_steptitle02{
+    margin-bottom: 30px;
+}
+
+.recuit_3c_steptitle01 img,.recuit_3c_steptitle02  img{
+    width: 55%;
+}
+
+.recuit_3c_stepphoto img{
+    width: 80%;
+}
+
+
+.recuit_3c_step1{
+    margin-bottom: 75px;
+}
+
+.recuit_3c_step2{
+    margin-bottom: 55px;
+}
+
+.recruit_info{
+    padding: 50px 0;
+}
+
+.recruit_info_container{
+    max-width: 100%;
+}
+
+.recruit_infotitle{
+    margin-bottom: 50px;
+}
+
+.recruit_info_link a{
+    margin-bottom: 30px;
+    display: block;
+}
+
+.recruit_info_message01,.recruit_info_message02{
+    margin: 0 auto;
+    width: 120px;
+    height: 60px;
+    padding-top: 18px;
+}
+
+.recruit_infotitle img{
+    width: 30%;
+}
+
+.recruit_info_message01 img,.recruit_info_message02 img{
+    max-width: 100% ;
+}
+
+.recruit_faq{
+    padding: 10px 15px 20px;
+}
+.recruit_faq_container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.recruit_faq_container_link{
+    cursor: pointer;
+    border: 1px solid#008b91;
+    line-height: 44px;
+    text-align: center;
+}
+
+
+}

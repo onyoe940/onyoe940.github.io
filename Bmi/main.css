@@ -1,0 +1,226 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    max-width: 1024px;
+    margin: 0 auto;
+    letter-spacing: 1px;
+}
+
+header{
+    height: 300px;
+    background: #424242;
+    position: relative;
+}
+
+header img{
+    position: absolute;
+    left: 173px;
+    top: 92px;
+    width: 117px;
+    height: 117px;
+    
+}
+
+.count{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 18px;
+    color: #FFD366;
+}
+
+.cm,.kg{    
+    display: block;
+    width: 250px;
+    height: 40px;
+    background: rgba(255,255,255,0.18);
+    border: 2px solid #FFD366;
+    border-radius: 10px;
+    font-size: 24px;
+    color: rgba(255,255,255,0.50);
+    padding: 0 0 0 16px;
+    margin-top: 7px;
+    
+}
+
+.send{
+    text-decoration:none;
+    font-size: 24px;
+    color: #424242;
+    width: 124px;
+    height: 124px;
+    background: #FFD366;
+    border: 0;
+    border-radius: 62px;
+    position: absolute;
+    top: 92px;
+    right: 214px;
+}
+
+.send:hover{
+    box-shadow: 0 1px 6px 3px rgba(255,196,50,0.64);
+}
+
+.send:active{
+    background: #DEA821;
+}
+
+.cm{
+    margin-bottom: 23px;
+}
+
+.countent{
+    background: #f5f5f5;
+    padding-bottom: 74px;
+}
+
+.countent h2{
+    text-align: center;
+    padding-top: 48px;
+    font-size: 24px;
+    color: #424242;
+    padding-bottom: 20px;
+}
+
+.Toolight{
+    width: 624px;
+    height: 62px;
+    border-left: 7px #31BAF9 solid;
+    background: #FFF;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+.normel{
+    width: 624px;
+    height: 62px;
+    border-left: 7px #86D73F solid;
+    background: #FFF;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+.Tooweight{
+    width: 624px;
+    height: 62px;
+    border-left: 7px #FF982D solid;
+    background: #FFF;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+.Mildweight{
+    width: 624px;
+    height: 62px;
+    border-left: 7px #FF6C03 solid;
+    background: #FFF;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+.Moderateweight{
+    width: 624px;
+    height: 62px;
+    border-left: 7px #FF6C03 solid;
+    background: #FFF;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+.Severeweight{
+    width: 624px;
+    height: 62px;
+    border-left: 7px #FF1200 solid;
+    background: #FFF;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+h3{
+    line-height: 62px;
+    font-size: 20px;
+    margin-left: 12px;
+    margin-right: 28px;
+    display: inline;
+    color: #4a4a4a;
+}
+
+.Mildweight h3,.Moderateweight h3,.Severeweight h3{
+    margin-right: -12px;
+}
+
+.resulttext{
+    margin-left: 42px;
+    font-size: 12px;
+    line-height: 62px;
+    color: #4a4a4a;
+}
+
+.num{
+    line-height: 62px;
+    font-size: 20px;
+    color: #4a4a4a;
+    margin-left: 7px;
+    letter-spacing: 0;
+}
+
+.deletsave{
+    text-decoration: none;
+    float: right;
+    margin-right: 50px;
+    line-height: 62px;
+    height: 0;
+}
+
+footer{
+    height: 90px;
+    background: #ffd366;
+}
