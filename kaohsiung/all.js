@@ -2610,13 +2610,14 @@ var Data = [
     clickdata.addEventListener('click',clickupData,false);
     clickdata.addEventListener('click',function(e){console.log(e.target)},false);
     var Datalen = Data.length;
+    upData();
     function upData(e){
         var select = e.target.value;
         var button = e.target.title;
         var str = '';
         var ADstr='';
         for(i=0;i<Datalen;i++){
-            if(select == Data[i].Zone || button == Data[i].Zone){
+            if(select === Data[i].Zone || button == Data[i].Zone){
                 str += `
                 <li>
                     <div class="listimg">
@@ -2630,7 +2631,7 @@ var Data = [
                         <p><img src="images/icons_phone.png" class="phone">${Data[i].Tel}<span><img src="images/icons_tag.png">免費參觀</span></p><br>
                     </div>
                 </li>`
-            }else if(select == 'ALL'){
+            }else if(select === '--請選擇行政區--'){
                 str += `
                 <li>
                     <div class="listimg">
