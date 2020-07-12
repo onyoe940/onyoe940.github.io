@@ -2630,7 +2630,7 @@ var Data = [
                         <p><img src="images/icons_phone.png" class="phone">${Data[i].Tel}<span><img src="images/icons_tag.png">免費參觀</span></p><br>
                     </div>
                 </li>`
-            }else if(select == '--請選擇行政區--'){
+            }else if(select == 'ALL'){
                 str += `
                 <li>
                     <div class="listimg">
